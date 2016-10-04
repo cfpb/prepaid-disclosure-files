@@ -1,0 +1,26 @@
+{
+  "name": "prepaid-account-disclosures",
+  "version": "1.0.0",
+  "description": "Code and design files for model/sample disclosures for prepaid accounts.",
+  "homepage": "https://github.com/cfpb/prepaid-disclosure-files#readme",
+  "bugs": {
+    "url": "https://github.com/cfpb/prepaid-disclosure-files/issues"
+  },
+  "license": "SEE LICENSE IN TERMS.md",
+  "author": {
+    "name": "Consumer Financial Protection Bureau",
+    "email": "tech@cfpb.gov",
+    "url": "https://cfpb.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cfpb/prepaid-disclosure-files.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "./copy-deps.sh"
+  },
+  "dependencies": {
+    "normalize.css": "~4.2.0"
+  }
+}

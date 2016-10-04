@@ -1,0 +1,1 @@
+exclude: ['node_modules', 'CHANGELOG.md', 'CONTRIBUTING.md', 'copy-deps.sh', 'Gemfile', 'Gemfile.lock', 'LICENSE', 'package.json', 'README.md', 'TERMS.md']

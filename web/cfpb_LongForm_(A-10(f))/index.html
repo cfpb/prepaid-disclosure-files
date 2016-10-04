@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Model long-form disclosure for a prepaid account</title>
+
+    <link rel="stylesheet" href="../static/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>List of all fees for XYZ Prepaid Card</h1>
+
+        <!-- PLAN-BASED FEES -->
+        <table class="long-form_table visible-headers" aria-hidden="true">
+            <!-- HEADER ROW FOR NORMAL BROWSERS -->
+            <thead>
+                <tr>
+                    <th class="description-header" id="description-header" scope="col">All fees</th>
+                    <th class="amount-header" id="amount-header" scope="col">Amount</th>
+                    <th class="details-header" id="details-header" scope="col">Details</th>
+                </tr>
+            </thead>
+        </table>
+
+        <table class="long-form_table" id="get-started">
+            <caption>Get started</caption>
+            <thead class="visually-hidden">
+                <tr>
+                    <th class="description-header" id="description-header-1" scope="col">All fees</th>
+                    <th class="amount-header" id="amount-header-1" scope="col">Amount</th>
+                    <th class="details-header" id="details-header-1" scope="col">Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="description" id="fee-desc-1" scope="row">Card purchase fee</th>
+                    <td class="amount" headers="fee-desc-1 amount-header-1">$3.95</td>
+                    <td class="details 3rd" headers="fee-desc-1 details-header-1"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="long-form_table" id="monthly-usage">
+            <caption>Monthly usage</caption>
+            <thead class="visually-hidden">
+                <tr>
+                    <th class="description-header" id="description-header-2" scope="col">All fees</th>
+                    <th class="amount-header" id="amount-header-2" scope="col">Amount</th>
+                    <th class="details-header" id="details-header-2" scope="col">Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="description" id="fee-desc-2" scope="row">Monthly fee</th>
+                    <td class="amount" headers="fee-desc-2 amount-header-2">$5.99</td>
+                    <td class="details 3rd" headers="fee-desc-2 details-header-2">
+                        Monthly fee is waived in any month in which you receive
+                        a direct deposit or conduct at least 30 transactions.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="long-form_table" id="add-money">
+            <caption>Add money</caption>
+            <thead class="visually-hidden">
+                <tr>
+                    <th class="description-header" id="description-header-3" scope="col">All fees</th>
+                    <th class="amount-header" id="amount-header-3" scope="col">Amount</th>
+                    <th class="details-header" id="details-header-3" scope="col">Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="description" id="fee-desc-3" scope="row">Direct deposit</th>
+                    <td class="amount" headers="fee-desc-3 amount-header-3">$0.50</td>
+                    <td class="details 3rd" headers="fee-desc-3 details-header-3"></td>
+                </tr>
+                <tr>
+                    <th class="description" id="fee-desc-4" scope="row">Cash reload</th>
+                    <td class="amount" headers="fee-desc-4 amount-header-3">$3.99</td>
+                    <td class="details 3rd" headers="fee-desc-4 details-header-3">
+                        Fees of up to $3.99 may apply when reloading your card at XYZ reload agents.
+                        Locations may be found at <a href="#">xyzbank.com/prepaid/reloads</a>.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="long-form_table" id="spend-money">
+            <caption>Spend money</caption>
+            <thead class="visually-hidden">
+                <tr>
+                    <th class="description-header" id="description-header-4" scope="col">All fees</th>
+                    <th class="amount-header" id="amount-header-4" scope="col">Amount</th>
+                    <th class="details-header" id="details-header-4" scope="col">Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="description" id="fee-desc-5" scope="row">Bill payment (regular delivery)</th>
+                    <td class="amount" headers="fee-desc-5 amount-header-4">$0.50</td>
+                    <td class="details 3rd" headers="fee-desc-5 details-header-4">
+                        Bill pay available when you log in to your account at
+                        <a href="#">xyzbank.com/prepaid</a> or using the XYZ Bank mobile app.
+                        Regular bill pay transactions will be completed within 3 business days
+                        for electronic payments and within approximately 7 days
+                        if we have to mail a paper check to pay your bill.
+                    </td>
+                </tr>
+                <tr>
+                    <th class="description" id="fee-desc-6" scope="row">Bill payment (expedited delivery)</th>
+                    <td class="amount" headers="fee-desc-6 amount-header-4">$1.00</td>
+                    <td class="details 3rd" headers="fee-desc-6 details-header-4">
+                        Bill pay available when you log in to your account at
+                        <a href="#">xyzbank.com/prepaid</a> or using the XYZ Bank mobile app.
+                        Expedited bill pay transactions will be completed within 1 business day.
+                        Electronic payments only.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="long-form_table" id="get-cash">
+            <caption>Get cash</caption>
+            <thead class="visually-hidden">
+                <tr>
+                    <th class="description-header" id="description-header-5" scope="col">All fees</th>
+                    <th class="amount-header" id="amount-header-5" scope="col">Amount</th>
+                    <th class="details-header" id="details-header-5" scope="col">Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="description" id="fee-desc-7" scope="row">ATM withdrawal (in-network)</th>
+                    <td class="amount" headers="fee-desc-7 amount-header-5">$0</td>
+                    <td class="details 3rd" headers="fee-desc-7 details-header-5">
+                        “In-network” refers to the XYZ Bank ATM Network.
+                        Locations can be found at <A href="#">xyzbank.com/ATMs</A>.
+                    </td>
+                </tr>
+                <tr>
+                    <th class="description" id="fee-desc-8" scope="row">ATM withdrawal (out-of-network)</th>
+                    <td class="amount" headers="fee-desc-8 amount-header-5">$1.99</td>
+                    <td class="details 3rd" headers="fee-desc-8 details-header-5">
+                        This is our fee. We will not charge you this fee for your
+                        first 3 out-of-network ATM withdrawals each month.
+                        “Out-of-network” refers to all the ATMs outside of the XYZ Bank ATM Network.
+                        You may also be charged a fee by the ATM operator,
+                        even if you do not complete a transaction.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="long-form_table" id="information">
+            <caption>Information</caption>
+            <thead class="visually-hidden">
+                <tr>
+                    <th class="description-header" id="description-header-6" scope="col">All fees</th>
+                    <th class="amount-header" id="amount-header-6" scope="col">Amount</th>
+                    <th class="details-header" id="details-header-6" scope="col">Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="description" id="fee-desc-9" scope="row">Customer service (automated)</th>
+                    <td class="amount" headers="fee-desc-9 amount-header-6">$0</td>
+                    <td class="details 3rd" headers="fee-desc-9 details-header-6">
+                        No fee for calling our automated customer service line,
+                        including for balance inquiries.
+                    </td>
+                </tr>
+                <tr>
+                    <th class="description" id="fee-desc-10" scope="row">Customer service (live agent)</th>
+                    <td class="amount" headers="fee-desc-10 amount-header-6">$0.50</td>
+                    <td class="details 3rd" headers="fee-desc-10 details-header-6">
+                        Per call. First 3 calls per month are free.
+                    </td>
+                </tr>
+                <tr>
+                    <th class="description" id="fee-desc-11" scope="row">ATM balance inquiry (in-network)</th>
+                    <td class="amount" headers="fee-desc-11 amount-header-6">$0</td>
+                    <td class="details 3rd" headers="fee-desc-11 details-header-6">
+                        “In-network” refers to the XYZ Bank ATM Network.
+                        Locations can be found at <A href="#">xyzbank.com/ATMs</A>.
+                    </td>
+                </tr>
+                <tr>
+                    <th class="description" id="fee-desc-12" scope="row">ATM balance inquiry (out-of-network)</th>
+                    <td class="amount" headers="fee-desc-12 amount-header-6">$0.50</td>
+                    <td class="details 3rd" headers="fee-desc-12 details-header-6">
+                        This is our fee. “Out-of-network” refers to all the ATMs
+                        outside of the XYZ Bank ATM Network.
+                        You may also be charged a fee by the ATM operator.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="long-form_table" id="spend-intl">
+            <caption>Using your card outside the U.S.</caption>
+            <thead class="visually-hidden">
+                <tr>
+                    <th class="description-header" id="description-header-7" scope="col">All fees</th>
+                    <th class="amount-header" id="amount-header-7" scope="col">Amount</th>
+                    <th class="details-header" id="details-header-7" scope="col">Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="description" id="fee-desc-13" scope="row">International transaction</th>
+                    <td class="amount" headers="fee-desc-13 amount-header-7">3%</td>
+                    <td class="details 3rd" headers="fee-desc-13 details-header-7">
+                        Of the U.S. dollar amount of each transaction.
+                    </td>
+                </tr>
+                <tr>
+                    <th class="description" id="fee-desc-18" scope="row">International ATM withdrawal</th>
+                    <td class="amount" headers="fee-desc-18 amount-header-7">$3.00</td>
+                    <td class="details 3rd" headers="fee-desc-18 details-header-7">
+                        This is our fee. You may also be charged a fee by the ATM operator,
+                        even if you do not complete a transaction.
+                    </td>
+                </tr>
+                <tr>
+                    <th class="description" id="fee-desc-18" scope="row">International ATM balance inquiry</th>
+                    <td class="amount" headers="fee-desc-18 amount-header-7">$2.00</td>
+                    <td class="details 3rd" headers="fee-desc-18 details-header-7">
+                        This is our fee. You may also be charged a fee by the ATM operator.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="long-form_table long-form_table-last" id="other">
+            <caption>Other</caption>
+            <thead class="visually-hidden">
+                <tr>
+                    <th class="description-header" id="description-header-8" scope="col">All fees</th>
+                    <th class="amount-header" id="amount-header-8" scope="col">Amount</th>
+                    <th class="details-header" id="details-header-8" scope="col">Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="description" id="fee-desc-19" scope="row">Inactivity</th>
+                    <td class="amount" headers="fee-desc-19 amount-header-8">$1.00</td>
+                    <td class="details 3rd" headers="fee-desc-19 details-header-8">
+                        You will be charged $1.00 each month after you have not
+                        completed a transaction using your card for 12 months.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- FINE PRINT -->
+        <div class="fine-print">
+            <p><small>
+                Register your card for FDIC insurance eligibility and other protections.
+                Your funds will be held at or transferred to XYZ Bank, an FDIC-insured institution.
+                Once there, your funds are insured up to $250,000 by the FDIC in the event XYZ Bank fails,
+                if specific deposit insurance requirements are met and your card is registered.
+                See
+                <a href="https://fdic.gov/deposit/deposits/prepaid.html">fdic.gov/deposit/deposits/prepaid.html</a>
+                for details.
+            </small></p>
+
+            <p><small>
+                No overdraft/credit feature.
+            </small></p>
+
+            <p><small>
+                Contact XYZ Prepaid Company by calling 1-800-555-5555,
+                by mail at 555 Street Name, Anytown, NY,
+                or visit <a href="#">xyzprepaid.com/prepaid</a>.
+            </small></p>
+
+            <p><small>
+                For general information about prepaid accounts, visit
+                <a href="http://www.consumerfinance.gov/prepaid/">cfpb.gov/prepaid</a>.<br>
+                If you have a complaint about a prepaid account, call the
+                Consumer Financial Protection Bureau at 1-855-411-2372 or visit
+                <a href="http://www.consumerfinance.gov/complaint/">cfpb.gov/complaint</a>.
+            </small></p>
+        </div>
+    </div>
+</body>
+
+</html>

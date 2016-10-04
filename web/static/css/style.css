@@ -1,0 +1,397 @@
+@import 'normalize.css';
+
+/* Base styles */
+
+body {
+    padding: 2em;
+    color: #000;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.375;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+p {
+    max-width: 36em;
+}
+
+small {
+    font-size: inherit;
+}
+
+a:hover {
+    color: #279;
+}
+
+
+/* Utilities */
+
+.wrapper {
+    max-width: 60em;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    height: 1px; width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+/* Long-form table styles */
+
+.long-form_table {
+    width: 100%;
+    border-color: #000;
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0;
+}
+
+.long-form_table-last {
+    margin-bottom: 30px;
+}
+
+.long-form_table caption {
+    /*max-width: 929px;*/
+    padding: 0.625em 1em;
+    border-color: #000;
+    border-style: solid;
+    border-width: 0 1px;
+    margin: 0;
+    background-color: #e3e4e5;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: left;
+}
+
+.long-form_table th,
+.long-form_table td {
+    padding: 0.625em 1em;
+    border: 1px solid #000;
+    text-align: left;
+    vertical-align: top;
+}
+
+.long-form_table thead th {
+    border-color: #000;
+    background-color: #000;
+    color: #fff;
+}
+
+.long-form_table tbody th {
+    font-weight: normal;
+}
+
+.long-form_table .description,
+.long-form_table .description-header {
+    width: 30%;
+}
+.long-form_table .amount,
+.long-form_table .amount-header {
+    width: 13%;
+}
+.long-form_table .details,
+.long-form_table .details-header {
+    width: 57%;
+}
+
+
+/* Responsive adjustments for long-form */
+
+@media all and (max-width: 767px) {
+    body {
+        padding: 1em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .long-form_table th,
+    .long-form_table td {
+        box-sizing: border-box;
+        display: block;
+        float: left;
+    }
+
+    .long-form_table .description-header,
+    .long-form_table .details-header,
+    .long-form_table .description,
+    .long-form_table .details {
+        width: 80%;
+    }
+
+    .long-form_table .details-header {
+        display: none;
+    }
+
+    .long-form_table .amount-header,
+    .long-form_table .amount {
+        width: 20%;
+    }
+
+    .long-form_table .description {
+        border-width: 1px 1px 0 0;
+    }
+
+    .long-form_table .amount {
+        border-width: 1px 0 0 0;
+    }
+
+    .long-form_table .details {
+        padding-top: 0px;
+        padding-bottom: 10px;
+        border-width: 0 1px 0 0;
+        font-style: italic;
+    }
+}
+
+@media all and (max-width: 479px) {
+    .long-form_table {
+        font-size: 0.875em;
+    }
+
+    .long-form_table caption,
+    .long-form_table th,
+    .long-form_table td {
+        padding: 0.5em 0.75em;
+    }
+
+    .long-form_table .description-header,
+    .long-form_table .details-header {
+        width: 70%;
+    }
+
+    .long-form_table .amount-header {
+        width: 30%;
+        text-align: right;
+    }
+}
+
+/* End of long-form styles */
+
+
+/* Short-form styles */
+
+.short-form {
+    max-width: 40em;
+    border: 1px solid black;
+}
+
+.short-form_header {
+    padding: 1em 2em;
+    margin: 0;
+    background: #ddd;
+    text-align: center;
+}
+
+.short-form_highlights {
+    display: table;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.short-form_highlights li {
+    display: table-cell;
+    padding-top: 1.5em;
+    padding-right: 2em;
+    padding-bottom: 1.5em;
+}
+
+.short-form_highlights li:first-child {
+    padding-left: 2em;
+}
+
+.short-form_highlights h2 {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.short-form_highlights b {
+    font-size: 1.875em;
+}
+
+.short-form_inner-wrapper {
+    padding: 0 2em 1em 2em;
+}
+
+.short-form_inner-wrapper__multi-plan {
+    padding: 0 1em 1em 1em;
+}
+
+.short-form_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5em;
+}
+
+.short-form_table caption {
+    padding: 0.5em 0;
+    border-top: 4px solid black;
+    text-align: left;
+}
+
+.short-form_table th,
+.short-form_table td {
+    padding: 0.5em 0;
+    border-color: #000;
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    text-align: left;
+    vertical-align: top;
+}
+
+.short-form_table thead th {
+    border-top-width: 0;
+    vertical-align: bottom;
+}
+
+.short-form_table .description {
+    padding-right: 1em;
+    font-weight: normal;
+    text-align: left;
+}
+
+.short-form_table .amount {
+    width: 25%;
+}
+
+.short-form_table__multi-plan {
+    margin-top: 0.5em;
+}
+
+.short-form_table .payg-header,
+.short-form_table .monthly-header,
+.short-form_table .annual-header,
+.short-form_table .payg,
+.short-form_table .monthly,
+.short-form_table .annual {
+    width: 20%;
+    padding-left: 1em;
+}
+
+.short-form .footnote {
+    margin-left: 0.625em;
+    text-indent: -0.625em;
+}
+
+
+/* Responsive adjustments for short-form */
+
+@media all and (max-width: 489px) {
+    .short-form_header {
+        padding: 1em;
+    }
+
+    .short-form_highlights {
+        display: block;
+    }
+
+    .short-form_highlights li {
+        float: left;
+        width: 40%;
+        padding-top: 1.5em;
+        padding-right: 5%;
+        padding-bottom: 1.5em;
+        padding-left: 5%;
+    }
+
+    .short-form_highlights li:first-child {
+        padding-left: 5%;
+    }
+
+    .short-form_inner-wrapper {
+        padding: 0 5% 1em 5%;
+    }
+
+    .short-form_table {
+        font-size: 0.875em;
+    }
+
+    .short-form_inner-wrapper__multi-plan {
+        padding: 0 1em 1em 1em;
+    }
+
+    .short-form_table__multi-plan {
+        margin-top: 1em;
+    }
+
+    .short-form_table__multi-plan thead {
+        /* Hide from regular browsers but keep available to screenreaders. */
+        position: absolute !important;
+        height: 1px; width: 1px;
+        overflow: hidden;
+        clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+        clip: rect(1px, 1px, 1px, 1px);
+    }
+
+    .short-form_table__multi-plan th,
+    .short-form_table__multi-plan td {
+        box-sizing: border-box;
+        display: block;
+        float: left;
+    }
+
+    .short-form_table__multi-plan .description {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .short-form_table .payg-header,
+    .short-form_table .monthly-header,
+    .short-form_table .annual-header,
+    .short-form_table .payg,
+    .short-form_table .monthly,
+    .short-form_table .annual {
+        width: 33.333333333%;
+        padding-left: 0;
+        border-top-width: 0;
+    }
+
+    .short-form_table .payg-header,
+    .short-form_table .payg {
+        padding-right: 0.25em;
+    }
+
+    .short-form_table .monthly-header,
+    .short-form_table .monthly {
+        padding-right: 0.25em;
+        padding-left: 0.25em;
+    }
+
+    .short-form_table .annual-header,
+    .short-form_table .annual {
+        padding-left: 0.25em;
+    }
+
+    .short-form_table td[data-label]:before {
+        font-weight: bold;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 0.25em;
+        content: attr(data-label);
+        font-size: 0.8571428571em;
+        line-height: 1;
+    }
+}
+
+
+/* End of short-form styles */
+
+
+@media print {
+    body {
+        padding: 0.5in;
+        font-size: 11pt;
+    }
+}
