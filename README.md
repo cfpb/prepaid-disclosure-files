@@ -1,7 +1,7 @@
 This repository contains the native design files and source code for the model
 and sample disclosure forms the Consumer Financial Protection Bureau (CFPB)
 designed for its
-[final rule regarding Prepaid Accounts](http://www.consumerfinance.gov/policy-compliance/rulemaking/final-rules/prepaid-accounts-under-electronic-fund-transfer-act-regulation-e-and-truth-lending-act-regulation-z/)
+[final rule regarding Prepaid Accounts](https://www.consumerfinance.gov/policy-compliance/rulemaking/final-rules/prepaid-accounts-under-electronic-fund-transfer-act-regulation-e-and-truth-lending-act-regulation-z/)
 under the Electronic Fund Transfer Act (Regulation E) and the Truth In Lending
 Act (Regulation Z).
 
@@ -46,8 +46,8 @@ and act upon. Under the new rule, prepaid consumers will have access to:
 
 
 Read more about the rule in our
-[press release](http://www.consumerfinance.gov/about-us/newsroom/consumer-financial-protection-bureau-finalizes-strong-federal-protections-prepaid-account-consumers)
-and at [consumerfinance.gov](http://www.consumerfinance.gov/).
+[press release](https://www.consumerfinance.gov/about-us/newsroom/cfpb-finalizes-strong-federal-protections-prepaid-account-consumers)
+and at [consumerfinance.gov](https://www.consumerfinance.gov/).
 
 
 ## Source files
@@ -69,7 +69,7 @@ folder structure above, within the `print` folder.
 | [Model form A-10(e)](print/cfpb_MultiplePlanShortForm_(A-10(e))) | Model Form for Short Form Disclosures for Prepaid Accounts with Multiple Service Plans<br>(§1005.18(b)(2), (3), (6), and (7)) |
 | [Sample form A-10(f)](print/cfpb_LongForm_(A-10(f))) | Sample Form for Long Form Disclosures for Prepaid Accounts<br>(§1005.18(b)(4), (6), and (7)) |
 
-[View the collected examples in a single PDF](http://files.consumerfinance.gov/f/documents/102016_cfpb_PrepaidDisclosures.pdf)
+[View the collected examples in a single PDF](https://files.consumerfinance.gov/f/documents/102016_cfpb_PrepaidDisclosures.pdf)
 
 Likewise, you can use the sample code to create the web versions of your disclosures:
 
@@ -94,7 +94,7 @@ The best way to do this is to [file an issue](https://github.com/cfpb/prepaid-di
 in this repository’s issue tracker.
 
 If you’ve identified a bug in the code and are interested in fixing it yourself,
-[pull requests are welcome](https://github.com/cfpb/prepaid-disclosure-files/compare)!
+pull requests are welcome!
 
 For more details on how to contribute, please see our
 [CONTRIBUTING](CONTRIBUTING.md) file.
@@ -119,4 +119,4 @@ development costs.  They are not substitutes for otherwise following the
 requirements of the rule, and financial institutions must make sure that all
 disclosures, regardless of whether they use these design files and source code or
 not, comply with the specific requirements of the Prepaid Rule, available at
-http://www.consumerfinance.gov/policy-compliance/rulemaking/final-rules/prepaid-accounts-under-electronic-fund-transfer-act-regulation-e-and-truth-lending-act-regulation-z/.
+https://www.consumerfinance.gov/policy-compliance/rulemaking/final-rules/prepaid-accounts-under-electronic-fund-transfer-act-regulation-e-and-truth-lending-act-regulation-z/.
