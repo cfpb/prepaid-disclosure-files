@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Model long-form disclosure for a prepaid account</title>
+
+    <link rel="stylesheet" href="../static/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Lista de todas las tarifas de la tarjeta prepagada XYZ</h1>
+
+        <!-- PLAN-BASED FEES -->
+        <table class="long-form_table visible-headers" aria-hidden="true">
+            <!-- HEADER ROW FOR NORMAL BROWSERS -->
+            <thead>
+                <tr>
+                    <th class="description-header" id="description-header" scope="col">Todos los cargos</th>
+                    <th class="amount-header" id="amount-header" scope="col">Cantidad</th>
+                    <th class="details-header" id="details-header" scope="col">Detalles</th>
+                </tr>
+            </thead>
+        </table>
+
+        <table class="long-form_table" id="get-started">
+            <caption>Comenzar así</caption>
+            <thead class="visually-hidden">
+                <tr>
+                    <th class="description-header" id="description-header-1" scope="col">Todos los cargos</th>
+                    <th class="amount-header" id="amount-header-1" scope="col">Cantidad</th>
+                    <th class="details-header" id="details-header-1" scope="col">Detalles</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="description" id="fee-desc-1" scope="row">Card purchase fee</th>
+                    <td class="amount" headers="fee-desc-1 amount-header-1">$3.95</td>
+                    <td class="details 3rd" headers="fee-desc-1 details-header-1"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="long-form_table" id="monthly-usage">
+            <caption>Uso mensual</caption>
+            <thead class="visually-hidden">
+                <tr>
+                    <th class="description-header" id="description-header-2" scope="col">Todos los cargos</th>
+                    <th class="amount-header" id="amount-header-2" scope="col">Cantidad</th>
+                    <th class="details-header" id="details-header-2" scope="col">Detalles</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="description" id="fee-desc-2" scope="row">Tarifa mensual</th>
+                    <td class="amount" headers="fee-desc-2 amount-header-2">$5.99</td>
+                    <td class="details 3rd" headers="fee-desc-2 details-header-2">
+                        La tarifa mensual es eximida cada mes que recibe un depósito directo o realice al menos
+                        30 transacciones.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="long-form_table" id="add-money">
+            <caption>Recargar dinero</caption>
+            <thead class="visually-hidden">
+                <tr>
+                    <th class="description-header" id="description-header-3" scope="col">Todos los cargos</th>
+                    <th class="amount-header" id="amount-header-3" scope="col">Cantidad</th>
+                    <th class="details-header" id="details-header-3" scope="col">Detalles</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="description" id="fee-desc-3" scope="row">Depósito directo</th>
+                    <td class="amount" headers="fee-desc-3 amount-header-3">$0.50</td>
+                    <td class="details 3rd" headers="fee-desc-3 details-header-3"></td>
+                </tr>
+                <tr>
+                    <th class="description" id="fee-desc-4" scope="row">Recarga de efectivo</th>
+                    <td class="amount" headers="fee-desc-4 amount-header-3">$3.99</td>
+                    <td class="details 3rd" headers="fee-desc-4 details-header-3">
+                        Las tarifas pueden ascender hasta $3.99 cuando usted recarga su tarjeta en los
+                        agentes de recarga XYZ. Las ubicaciones se pueden encontrar en 
+                        <a href="#">xyzbank.com/prepaid/reloads</a>.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="long-form_table" id="spend-money">
+            <caption>Gastar dinero</caption>
+            <thead class="visually-hidden">
+                <tr>
+                    <th class="description-header" id="description-header-4" scope="col">Todos los cargos</th>
+                    <th class="amount-header" id="amount-header-4" scope="col">Cantidad</th>
+                    <th class="details-header" id="details-header-4" scope="col">Detalles</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="description" id="fee-desc-5" scope="row">Pago de facturas (pago normal)</th>
+                    <td class="amount" headers="fee-desc-5 amount-header-4">$0.50</td>
+                    <td class="details 3rd" headers="fee-desc-5 details-header-4">
+                        El servicio de pago de facturas está disponible al ingresar en su cuenta en
+                        <a href="#">xyzbank.com/prepaid</a> o en la aplicación móvil del banco XYZ. Los
+                        pagos normales de facturas se completarán dentro de 3 días hábiles para pagos
+                        electrónicos y aproximadamente dentro de 7 dias si se requiere el envío de
+                        un cheque para cancelar su factura.
+                    </td>
+                </tr>
+                <tr>
+                    <th class="description" id="fee-desc-6" scope="row">Pago de facturas (pago inmediato)</th>
+                    <td class="amount" headers="fee-desc-6 amount-header-4">$1.00</td>
+                    <td class="details 3rd" headers="fee-desc-6 details-header-4">
+                        El servicio de pago de facturas está disponible al ingresar en su cuenta en
+                        <a href="#">xyzbank.com/prepaid</a> o en la aplicación móvil del banco XYZ.
+                        Transacciones de pago inmediato se completarán dentro de 1 día hábil. Sólo
+                        pagos electrónicos.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="long-form_table" id="get-cash">
+            <caption>Retirar efectivo</caption>
+            <thead class="visually-hidden">
+                <tr>
+                    <th class="description-header" id="description-header-5" scope="col">Todos los cargos</th>
+                    <th class="amount-header" id="amount-header-5" scope="col">Cantidad</th>
+                    <th class="details-header" id="details-header-5" scope="col">Detalles</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="description" id="fee-desc-7" scope="row">Retiro de ATM (en red)</th>
+                    <td class="amount" headers="fee-desc-7 amount-header-5">$0</td>
+                    <td class="details 3rd" headers="fee-desc-7 details-header-5">
+                        "En red" se refiere a la Red de ATMs del Banco XYZ.
+                        Puede localizar ATMs en <A href="#">xyzbank.com/ATMs</A>.
+                    </td>
+                </tr>
+                <tr>
+                    <th class="description" id="fee-desc-8" scope="row">Retiro de ATM (fuera de red)</th>
+                    <td class="amount" headers="fee-desc-8 amount-header-5">$1.99</td>
+                    <td class="details 3rd" headers="fee-desc-8 details-header-5">
+                        Esta es nuestra tarifa. No cobraremos está tarifa por sus primeros 3 retiros de cada mes en
+                        ATMs fuera de red. "Fuera de red" se refiere a todos los ATMs fuera de la Red de ATMs del
+                        Banco XYZ. Puede que el operador de dicho ATM también le cobre una tarifa por su uso, aún si
+                        usted no completa la transacción.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="long-form_table" id="information">
+            <caption>Información</caption>
+            <thead class="visually-hidden">
+                <tr>
+                    <th class="description-header" id="description-header-6" scope="col">Todos los cargos</th>
+                    <th class="amount-header" id="amount-header-6" scope="col">Cantidad</th>
+                    <th class="details-header" id="details-header-6" scope="col">Detalles</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="description" id="fee-desc-9" scope="row">Servicio de atención al cliente (automatizado)</th>
+                    <td class="amount" headers="fee-desc-9 amount-header-6">$0</td>
+                    <td class="details 3rd" headers="fee-desc-9 details-header-6">
+                        Libre de tarifa por llamar a nuestra línea automatizada de servicio de atención al cliente,
+                        incluyendo consultas de saldo.
+                    </td>
+                </tr>
+                <tr>
+                    <th class="description" id="fee-desc-10" scope="row">Servicio de atención al cliente (agente)</th>
+                    <td class="amount" headers="fee-desc-10 amount-header-6">$0.50</td>
+                    <td class="details 3rd" headers="fee-desc-10 details-header-6">
+                        Por llamada. Las primeras 3 llamadas de cada mes son gratuitas.
+                    </td>
+                </tr>
+                <tr>
+                    <th class="description" id="fee-desc-11" scope="row">Consulta de saldo en ATM (en red)</th>
+                    <td class="amount" headers="fee-desc-11 amount-header-6">$0</td>
+                    <td class="details 3rd" headers="fee-desc-11 details-header-6">
+                        "En red" se refiere a la Red de Cajeros Automáticos del Banco XYZ.
+                        Puede localizar cajeros automáticos en <A href="#">xyzbank.com/ATMs</A>.
+                    </td>
+                </tr>
+                <tr>
+                    <th class="description" id="fee-desc-12" scope="row">Consulta de saldo en ATM (fuera de red)</th>
+                    <td class="amount" headers="fee-desc-12 amount-header-6">$0.50</td>
+                    <td class="details 3rd" headers="fee-desc-12 details-header-6">
+                        Esta es nuestra tarifa. "Fuera de red" se refiere a todos los ATMs fuera de la Red de
+                        ATMs del Banco XYZ. Puede que el operador de dicho ATM también le cobre una 
+                        tarifa por su uso.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="long-form_table" id="spend-intl">
+            <caption>Uso de su tarjeta fuera de EE.UU.</caption>
+            <thead class="visually-hidden">
+                <tr>
+                    <th class="description-header" id="description-header-7" scope="col">Todos los cargos</th>
+                    <th class="amount-header" id="amount-header-7" scope="col">Cantidad</th>
+                    <th class="details-header" id="details-header-7" scope="col">Detalles</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="description" id="fee-desc-13" scope="row">Transacción internacional</th>
+                    <td class="amount" headers="fee-desc-13 amount-header-7">3%</td>
+                    <td class="details 3rd" headers="fee-desc-13 details-header-7">
+                        De la cantidad en dólares estadounidenses de cada transacción.
+                    </td>
+                </tr>
+                <tr>
+                    <th class="description" id="fee-desc-18" scope="row">Retiro de ATM </th>
+                    <td class="amount" headers="fee-desc-18 amount-header-7">$3.00</td>
+                    <td class="details 3rd" headers="fee-desc-18 details-header-7">
+                        Esta es nuestra tarifa. Puede que el operador de dicho ATM también le cobre una tarifa por
+                        su uso, aún si usted no completa la transacción.
+                    </td>
+                </tr>
+                <tr>
+                    <th class="description" id="fee-desc-18" scope="row">Consulta de saldo en ATM</th>
+                    <td class="amount" headers="fee-desc-18 amount-header-7">$2.00</td>
+                    <td class="details 3rd" headers="fee-desc-18 details-header-7">
+                        Esta es nuestra tarifa por servicio. Puede que el operador de dicho ATM también le cobre
+                        una tarifa por su uso, aún si usted no completa la transacción.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="long-form_table long-form_table-last" id="other">
+            <caption>Otros</caption>
+            <thead class="visually-hidden">
+                <tr>
+                    <th class="description-header" id="description-header-8" scope="col">Todos los cargos</th>
+                    <th class="amount-header" id="amount-header-8" scope="col">Cantidad</th>
+                    <th class="details-header" id="details-header-8" scope="col">Detalles</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="description" id="fee-desc-19" scope="row">Inactividad</th>
+                    <td class="amount" headers="fee-desc-19 amount-header-8">$1.00</td>
+                    <td class="details 3rd" headers="fee-desc-19 details-header-8">
+                        Se le cobrará $1.00 mensualmente después que pasen 12 meses sin que usted haya realizado
+                        ninguna transacción con su tarjeta.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- FINE PRINT -->
+        <div class="fine-print">
+            <p><small>
+                Registre su tarjeta para elegibilidad al seguro de la FDIC y otras protecciones. Sus fondos
+                serán retenidos o transferidos al XYZ Bank, una institución asegurada por la FDIC. Una vez allí, sus fondos son asegurados hasta $250,000 por la FDIC en caso de que el XYZ Bank quiebre, si se cumplan se cumplan ciertos requisitos específicos del seguro de depósitos y su tarjeta esté registrada. Para más detalles, visite
+                <a href="https://fdic.gov/deposit/deposits/prepaid.html">fdic.gov/deposit/deposits/prepaid.html</a> (en inglés).
+            </small></p>
+
+            <p><small>
+                Sin función de sobregiros/crédito.
+            </small></p>
+
+            <p><small>
+                Contacte al XYZ Bank llamando al (800) 555-5555, por correo a la dirección 555 Nombre de la Calle,
+                Cualquiera Ciudad, NY, o visite <a href="#">xyzprepaid.com/prepaid</a>.
+            </small></p>
+
+            <p><small>
+                Para información general sobre cuentas prepagadas, visite
+                <a href="http://www.consumerfinance.gov/prepaid/">cfpb.gov/prepaid</a> (en inglés).<br>
+                Si tiene alguna queja sobre una cuenta prepagada, llame a la Oficina para la Protección Financiera
+                del Consumidor al 1-855-411-2372 o visite
+                <a href="http://www.consumerfinance.gov/complaint/">cfpb.gov/complaint</a> (en inglés).
+            </small></p>
+        </div>
+    </div>
+</body>
+
+</html>
